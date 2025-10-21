@@ -1,0 +1,10 @@
+# Environnement virtuel Python (spécifique à chaque machine)
+vive_env/
+
+# Fichiers cache de Python
+__pycache__/
+*.pyc
+
+# Fichier contenant les données personnelles (adresses MAC)
+# Ce fichier sera créé manuellement sur chaque machine.
+stations.json
