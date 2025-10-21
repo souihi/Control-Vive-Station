@@ -54,7 +54,7 @@ Suivez ces étapes pour installer et configurer l'application sur votre Raspberr
 1.  **Clonez ce dépôt** dans le dossier de votre choix (par exemple, le dossier `Documents`) :
     ```bash
     cd ~/Documents
-    git clone [https://github.com/souihi/Control-Vive-Station-CaM-X-IA-.git](https://github.com/souihi/Control-Vive-Station-CaM-X-IA-.git)
+    git clone https://github.com/souihi/Control-Vive-Station-CaM-X-IA-.git
     ```
 
 2.  **Accédez au dossier du projet :**
