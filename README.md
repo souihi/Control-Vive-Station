@@ -19,7 +19,7 @@ Fini le bruit constant ou le besoin de débrancher manuellement vos stations ! G
 
 ---
 
-## ## Prérequis Matériels  हार्डवेयर
+## ## Prérequis Matériels
 
 * Un **Raspberry Pi** (modèle 3, 4, ou 5 recommandé) avec connectivité Bluetooth.
 * Une ou plusieurs **stations de base HTC Vive** (version 1.0 ou 2.0).
