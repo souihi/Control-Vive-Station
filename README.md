@@ -90,12 +90,7 @@ Suivez ces étapes pour installer et configurer l'application sur votre Raspberr
     sudo bluetoothctl scan on
     ```
     Laissez tourner le scan. Vos stations de base devraient apparaître avec un nom commençant par `LHB-`. Notez leurs adresses MAC (format `XX:XX:XX:XX:XX:XX`). Une fois terminé, quittez le scan avec `Ctrl+C`.
-
-2.  **Créez le fichier de configuration des stations.** L'application stocke les adresses MAC dans un fichier `stations.json`. Vous pouvez le créer vide, puis ajouter les stations via l'interface web.
-    ```bash
-    touch stations.json
-    ```
-
+    
 ---
 
 ## ## Utilisation de l'Application 💡
@@ -139,4 +134,4 @@ Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une "issue" pou
 
 ## ## Licence
 
-Ce projet est distribué sous la licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+Ce projet est distribué sous la licence GNU. Voir le fichier `LICENSE` pour plus de détails.
