@@ -43,10 +43,10 @@ async def control_station(address: str, command: bytes):
         async with BleakClient(address, timeout=10.0) as client:
             if client.is_connected:
                 await client.write_gatt_char(POWER_CHARACTERISTIC_UUID, command)
-                print(f"✅ Commande {action_str} envoyée à {address}.")
+                print(f"Commande {action_str} envoyée à {address}.")
                 return True
     except Exception as e:
-        print(f"❌ Erreur avec {address}: {e}")
+        print(f" Erreur avec {address}: {e}")
     return False
 
 
