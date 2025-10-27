@@ -10,7 +10,7 @@ Fini le bruit constant ou le besoin de débrancher manuellement vos stations ! G
 
 
 
-##Fonctionnalités ✨
+## Fonctionnalités ✨
 
 * **Interface Web Simple :** Accédez à un panneau de contrôle épuré depuis n'importe quel appareil sur votre réseau local.
 * **Contrôle Global :** Allumez ou éteignez toutes vos stations enregistrées en un seul clic.
@@ -19,7 +19,7 @@ Fini le bruit constant ou le besoin de débrancher manuellement vos stations ! G
 
 ---
 
-##Prérequis Matériels
+## Prérequis Matériels
 
 * Un **Raspberry Pi** (modèle 3, 4, ou 5 recommandé) avec connectivité Bluetooth.
 * Une ou plusieurs **stations de base HTC Vive** (version 1.0 ou 2.0).
@@ -27,7 +27,7 @@ Fini le bruit constant ou le besoin de débrancher manuellement vos stations ! G
 
 ---
 
-## ## Guide d'Installation (De A à Z) 🚀
+## Guide d'Installation (De A à Z) 🚀
 
 Suivez ces étapes pour installer et configurer l'application sur votre Raspberry Pi.
 
@@ -49,7 +49,7 @@ Suivez ces étapes pour installer et configurer l'application sur votre Raspberr
     ```
     S'il n'est pas actif, activez-le avec `sudo systemctl enable --now bluetooth`.
 
-### ### Étape 2 : Cloner et Préparer l'Application
+### Étape 2 : Cloner et Préparer l'Application
 
 1.  **Clonez ce dépôt** dans le dossier de votre choix (par exemple, le dossier `Documents`) :
     ```bash
@@ -83,7 +83,7 @@ Suivez ces étapes pour installer et configurer l'application sur votre Raspberr
     pip install -r requirements.txt
     ```
 
-### ### Étape 3 : Configuration Initiale
+### Étape 3 : Configuration Initiale
 
 1.  **Trouvez les adresses MAC de vos stations.** C'est l'étape la plus importante. Avec l'environnement activé, lancez un scan Bluetooth :
     ```bash
@@ -93,7 +93,7 @@ Suivez ces étapes pour installer et configurer l'application sur votre Raspberr
     
 ---
 
-## ## Utilisation de l'Application 💡
+## Utilisation de l'Application 💡
 
 1.  **Lancez le serveur web.** Assurez-vous que votre environnement virtuel est toujours activé, puis lancez :
     ```bash
@@ -118,7 +118,7 @@ Suivez ces étapes pour installer et configurer l'application sur votre Raspberr
 
 ---
 
-## ## Dépannage (Troubleshooting)
+## Dépannage (Troubleshooting)
 
 * **Erreur `ModuleNotFoundError`**: Assurez-vous que votre environnement virtuel est bien activé avant de lancer `python3 app.py`. Votre terminal doit afficher `(vive_env)` au début de la ligne.
 * **Les stations ne réagissent pas**:
@@ -126,12 +126,10 @@ Suivez ces étapes pour installer et configurer l'application sur votre Raspberr
     * Assurez-vous que le Raspberry Pi est à une distance raisonnable des stations (le signal Bluetooth a une portée limitée).
     * Redémarrez le Raspberry Pi.
 
----
-
-## ## Contributions
+## Contributions
 
 Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une "issue" pour signaler un bug ou proposer une nouvelle fonctionnalité.
 
-## ## Licence
+## Licence
 
 Ce projet est distribué sous la licence GNU. Voir le fichier `LICENSE` pour plus de détails.
